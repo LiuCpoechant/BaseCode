@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>修改</title>
+    <script>
+        function myback()
+        {
+            window.location.href = "/Info.ashx";
+        }
+    </script>
+</head>
+<body>
+    <form method="post" action="UpdateInfo.ashx">
+        <table border="1" cellpadding="0" cellspacing="0" align="center">
+            <tr>
+                <td>学号</td>
+                <td><input type="text" name="sno"  value="$sno"/></td>
+            </tr>
+            <tr>
+                <td>姓名</td>
+                <td><input type="text" name="sname" value="$sname" /></td>
+            </tr>
+            <tr>
+                <td>班级</td>
+                <td><input type="text" name="sclass" value="$sclass" /></td>
+            </tr>
+            <tr>
+                <td>数学</td>
+                <td><input type="text" name="math" value="$math" /></td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td><input type="text" name="chinese" value="$chinese" /></td>
+            </tr>
+            <tr>
+                <td>英语</td>
+                <td><input type="text" name="english" value="$english" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="确认" />
+                    <input type="button" value="取消" onclick="javascript:myback()" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

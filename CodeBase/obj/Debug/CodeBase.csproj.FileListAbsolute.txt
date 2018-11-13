@@ -1,0 +1,5 @@
+c:\users\我的大大\documents\CodeBase\CodeBase\bin\CodeBase.dll.config
+c:\users\我的大大\documents\CodeBase\CodeBase\bin\CodeBase.dll
+c:\users\我的大大\documents\CodeBase\CodeBase\bin\CodeBase.pdb
+c:\users\我的大大\documents\CodeBase\CodeBase\obj\Debug\CodeBase.dll
+c:\users\我的大大\documents\CodeBase\CodeBase\obj\Debug\CodeBase.pdb
